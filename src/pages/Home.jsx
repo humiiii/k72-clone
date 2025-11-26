@@ -6,12 +6,12 @@ import HomeLinks from "../components/Home/HomeLinks";
 const Home = () => {
   return (
     <div className="relative h-screen w-screen overflow-hidden text-white">
-        <Video className="fixed h-screen"/>
-      <div className="relative z-10 h-screen p-3 flex flex-col justify-between items-center ">
+      <Video className="fixed h-screen" />
+      <div className="relative z-10 flex h-screen flex-col items-center justify-between p-3">
         <Hero />
-        <div className="flex gap-4 justify-center">
-        <HomeLinks to="work" />
-        <HomeLinks to="agency" />
+        <div className="flex justify-center gap-4">
+          <HomeLinks to="work" />
+          <HomeLinks to="agency" />
         </div>
       </div>
     </div>
